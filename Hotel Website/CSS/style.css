@@ -1,1 +1,307 @@
+#navbar
+{
+ margin:0;
+ padding-left:70px;
+ padding-right:70px;
+ background: black;
+ overflow:auto;
+ /* color:white; */
+}
+.logo{
+ /* margin:0;
+ padding:0; */
+ float:left;
+ /* text-align:center; */
+ padding-top:5px;
+}
+.list1
+{
+  /* margin:0; */
+  padding:0;
+  float:right;
+  list-style: none;
+}
+a
+{
+  text-decoration:none;
+  color:white;
+} 
+li
+{
+  float:left;
+  padding:10px;
+}
+li a:hover,
+li a.current
+{
+  background:#444;
+  color:red; 
+}
+.box1
+{
+ width:100%;
+ height:500px;
+ background-image:url("../himage/img1.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ text-align:center;
+ line-height:10px;
+ padding-top:150px;
+}
+.show
+{
+  font-size: 60px;
+  /* text-align: center; */
+  color:white;
+}
+.enjoy
+{
+  color:purple;
+}
+.h
+{
+  padding-bottom:13px;
+  color:white;
+}
+.btn
+{
+  color:black;
+  background:white;
+  padding:15px 10px;
+  font-size:18px;
+} 
+.btn:hover
+{
+  background:rgb(165, 64, 165);
+  color:rgb(35, 15, 165);
+}
+.box2
+{
+  width:50%;
+  height:400px;
+  background-image:url("../himage/img2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  float:left;
+}
+.box3
+{
+  width:50%;
+  height:400px;
+  text-align:center;
+  background-color:rgb(181, 80, 181);
+  color:white;
+  padding-top:40px;
+  /* padding-top:30px; */
+  float:right;
+  line-height:25px;
+  box-sizing: border-box;
+
+}
+.span2
+{
+  color:#f7c08a;
+}
+.subbox1
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+}
+.subbox2
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+  background: #f7c08a;
+}
+.subbox3
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+}
+.clr
+{
+  clear:both;
+}
+.footer
+{
+  background-color:black;
+  text-align:center;
+  padding:20px;
+  color:white;
+  margin-top:0px;
+}
+
+/* about page */
+.py-1
+{
+  padding:30px 0;
+  /* margin-bottom:30px; */
+} 
+.span3
+{
+  color:#f7c08a;
+}
+.firstbox
+{
+  height:400px;
+}
+.area1
+{
+  float:left;
+  width:40%;
+  height:100px;
+  
+}
+.firstbox .area1
+{
+  margin-left:50px;
+}
+.firstbox .area1 p
+{
+  line-height: 25px;
+}
+.area2
+{
+  float:right;
+  width:50%;
+  height:100px;
+}
+.firstbox .area2 img
+{
+ width:90%;
+ display:block;
+ margin:auto;
+ border-radius:50%;
+}
+.secondbox
+{
+  width:100%;
+  height:600px;
+  /* background-color:red; */
+  margin-top:20px;
+  background-image:url("../himage/img4.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  color: white;
+  padding-top:40px;
+  box-sizing:border-box;
+}
+.scolor1
+{
+  background:#f7c08a;
+  color:block;
+}
+.secondbox .sbox img
+{
+  width:100px;
+  margin-right:20px;
+  border-radius:50%;
+  float:left;
+} 
+.secondbox .sbox
+{
+  padding:20px 20px;
+  margin:50px;
+  opacity:0.8;
+  color:black;
+} 
+.secondbox .guest
+{
+  text-align: center;
+  padding-top:50px;
+  line-height:2px;
+}
+
+/* contact page */
+.contactbox
+{
+  margin-left:70px;
+  margin-right:70px;
+  margin-bottom:30px;
+}
+.contact
+{
+  font-size:30px;
+}
+.span4
+{
+  color:#f68717;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn1
+{
+  color:white;
+  background:black;
+  padding:15px 10px;
+  font-size:18px;
+}
+.subbox4
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+  color:white;
+  background:black;
+}
+.subbox5
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+  color:white;
+  background:black;
+}
+.subbox6
+{
+  float:left;
+  width:33.3%;
+  padding:50px;
+  text-align:center;
+  box-sizing:border-box;
+  color:white;
+  background:black;
+  
+}
 
