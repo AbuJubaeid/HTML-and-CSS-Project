@@ -1,0 +1,17 @@
+.navigation {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.menuStyle {
+  list-style: none;
+}
+.menuStyle li {
+  margin-top: 10px;
+}
+
+.menuStyle li a {
+  font-size: 20px;
+  text-decoration: none;
+}

@@ -1,1 +1,40 @@
+.mainDiv {
+  background-image: url("../Images/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: -20px;
+  height: 90vh;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+.content h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
 
+.content p {
+  margin-top: -40px;
+  font-size: 30px;
+  color: white;
+}
+.content button {
+  margin-top: -40px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.content button:hover {
+  background-color: violet;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    height: 67vh;
+  }
+  .content button:hover {
+    background-color: violet;
+  }
+}
