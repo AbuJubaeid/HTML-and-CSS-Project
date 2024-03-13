@@ -14,23 +14,35 @@ const Contact = () => {
         textAlign:'center',
         backgroundColor:'olive',
         pt:'40px',
-        height:'30vh',}}>
+        height:'30vh',
+
+        "@media (max-width:600px)":{
+          height:'50vh',
+        }
+
+        }} >
         <Typography variant='h4'>Get In Touch</Typography>
-        <Box sx={{display:'flex',justifyContent:'center', pt:'40px',}}>
-          <Box sx={{"& p":{marginTop:'-2px',},
+        <Box sx={{display:'flex',justifyContent:'center', pt:'40px',
+
+        "@media (max-width:600px)":{
+          flexDirection: 'column',
+          marginTop:'-25px',
+        }
+        }}>
+          <Box component='div' sx={{"& p":{marginTop:'-2px',},
             textAlign:'center',
-            mr:5}}>
+            mr:5,}}>
             <HomeIcon/>
             <Typography variant='h5'>Address</Typography>
             <p>Jamjam tower, Uttara, Dhaka</p>
           </Box>
-          <Box sx={{"& p":{marginTop:'-2px'},
+          <Box component='div' sx={{"& p":{marginTop:'-2px'},
             textAlign:'center', mr:5}}>
             <LocalPhoneIcon/>
             <Typography variant='h5'>Phone</Typography>
             <p>+880 1722072285</p>
           </Box>
-          <Box sx={{"& p":{marginTop:'-2px'},
+          <Box component='div' sx={{"& p":{marginTop:'-2px'},
             textAlign:'center', mr:5}}>
             <EmailIcon/>
             <Typography variant='h5'>Email</Typography>
@@ -41,10 +53,12 @@ const Contact = () => {
 
       
       <Box sx={{"& h4":{textAlign:'center'}, 
-           pt:'20px',
+           pt:'60px',
+           height:'40vh',
            "& button":{padding:'10px 20px',
                       margin:'10px',
-                      borderRadius:'5px'}}}>
+                      borderRadius:'5px',
+                      }}}>
          <Typography variant='h4'>Message Us</Typography>
          <Box sx={{textAlign:'center', margin:'5px',pt:'20px', pb:'40px'}}>
             <TextField
