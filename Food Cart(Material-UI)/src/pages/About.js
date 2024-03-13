@@ -25,7 +25,6 @@ const About = () => {
       // color:'white',
       height:'70vh',
       overlay:7,
-      background:'gray',
 
       "@media (max-width:600px)":{
         height:'90vh',
